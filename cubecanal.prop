@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "cubecanal" : {
+      "description": "CUBE Controle",
+      "version": "1.00"
+    }
+  }
+}

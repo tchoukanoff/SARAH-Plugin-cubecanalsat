@@ -1,0 +1,45 @@
+	<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulecubecanal" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulecubecanal" scope="public">
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+
+	  <!-- control cube canalsat -->
+	  <item>monte le son<tag>out.action.val="volplus"</tag></item>
+	  <item>baisse le son<tag>out.action.val="volmoins"</tag></item>
+	  <item>coupe le son<tag>out.action.val="volmuteon"</tag></item>
+	  <item>remet le son<tag>out.action.val="volmuteoff"</tag></item>
+	  
+	  
+	  <item>met tf1<tag>out.action.val="canal1"</tag></item>
+	  <item>met france 2<tag>out.action.val="canal2"</tag></item>
+	  <item>met france 3<tag>out.action.val="canal3"</tag></item>
+	  <item>met canal plus<tag>out.action.val="canal4"</tag></item>
+	  <item>met france (<tag>out.action.val="canal5"</tag></item>
+	  <item>met M six<tag>out.action.val="canal6"</tag></item>
+	  <item>met arté<tag>out.action.val="canal7"</tag></item>
+	  <item>met la mosaic canal plus<tag>out.action.val="canal8"</tag></item>
+	  <item>met canal plus cinéma<tag>out.action.val="canal10"</tag></item>
+    <item>met canal plus sport<tag>out.action.val="canal11"</tag></item>
+    <item>met canal plus serie<tag>out.action.val="canal12"</tag></item>
+    <item>met canal plus family<tag>out.action.val="canal13"</tag></item>
+    <item>met canal plus décale<tag>out.action.val="canal14"</tag></item>
+    <item>met canal plus a la demande<tag>out.action.val="canal15"</tag></item>
+    <item>met canal sat a la demande<tag>out.action.val=""</tag>canal16</item>
+    <item>met discoveri<tag>out.action.val="canal84"</tag></item>
+	<item>met discoveri science<tag>out.action.val="canal85"</tag></item>
+
+
+	  <item>met le cube en lecture<tag>out.action.val="play"</tag></item>
+	  <item>met le cube en pause<tag>out.action.val="pause"</tag></item>
+	  
+	  <item>chaine suivante<tag>out.action.val="pplus"</tag></item>
+	  <item>chaine précédente<tag>out.action.val="pmoins"</tag></item>
+	 
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/cubecanal";</tag>
+  </rule> 
+</grammar>
