@@ -13,6 +13,7 @@
 	  <item>remet le son<tag>out.action.val="volmuteoff"</tag></item>
 	  
 	  
+	  <item>met la mosaique<tag>out.action.val="canal0"</tag></item>
 	  <item>met tf1<tag>out.action.val="canal1"</tag></item>
 	  <item>met france 2<tag>out.action.val="canal2"</tag></item>
 	  <item>met france 3<tag>out.action.val="canal3"</tag></item>

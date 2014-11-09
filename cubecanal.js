@@ -5,6 +5,11 @@ var exec = require('child_process').exec;
  
 switch(data.val) {
 
+	case "canal0":
+	  var process = '%CD%/plugins/cubecanal/bin/canal0.bat';
+	  var Txt = new Array; 
+			Txt[0] = "voila. J'ai mi la mosa ique";
+	break;
 	case "canal1":
 	  var process = '%CD%/plugins/cubecanal/bin/canal1.bat';
 	  var Txt = new Array; 
