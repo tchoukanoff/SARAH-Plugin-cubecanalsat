@@ -77,7 +77,7 @@ chaque chaine on un locator ici c'est dvb://1.44.2329  qui ici donne la chaine 1
 
 pour créer un .bat regarder dans le dossier bin il faudra les modifier aver l'ip du cube et l'uuid de votre cube
 
-je voudrais tout faire en js pour ne pas avoi de .bat mais conpétance en java son nul
+je voudrais tout faire en js pour ne pas avoir de .bat mais conpétance en java son nul
 
 
 
