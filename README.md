@@ -1,4 +1,4 @@
-SARAH-Plugin-cubecanalplus
+SARAH-Plugin-cubecanalsat
 ==========================
 
 plugin pour sarah qui controle le cube hd wifi de canalsat
