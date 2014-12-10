@@ -14,7 +14,7 @@
 	  
 	  
 	  <item>met la mosaique<tag>out.action.val="canal0"</tag></item>
-	  <item>met tf1<tag>out.action.val="canal1"</tag></item>
+	  <item>met t f un<tag>out.action.val="canal1"</tag></item>
 	  <item>met france 2<tag>out.action.val="canal2"</tag></item>
 	  <item>met france 3<tag>out.action.val="canal3"</tag></item>
 	  <item>met canal plus<tag>out.action.val="canal4"</tag></item>
@@ -38,6 +38,17 @@
 	  
 	  <item>chaine suivante<tag>out.action.val="pplus"</tag></item>
 	  <item>chaine précédente<tag>out.action.val="pmoins"</tag></item>
+
+	  <item>flèche du haut<tag>out.action.val="haut"</tag></item>
+	  <item>flèche du bas<tag>out.action.val="bas"</tag></item>
+	  <item>flèche de gauche<tag>out.action.val="gauche"</tag></item>
+	  <item>flèche de droite<tag>out.action.val="droite"</tag></item>
+	  <item>valide<tag>out.action.val="ok"</tag></item>
+	  <item>retour<tag>out.action.val="retour"</tag></item>
+	  <item>sort des menu<tag>out.action.val="sortir"</tag></item>
+	  <item>affiche le menu<tag>out.action.val="menu"</tag></item>
+	  <item>affiche le guide<tag>out.action.val="guide"</tag></item>
+	  <item>affiche les info<tag>out.action.val="info"</tag></item>
 	 
     </one-of>
 

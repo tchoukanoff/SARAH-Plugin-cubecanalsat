@@ -1,5 +1,9 @@
  
-exports.action = function(data, callback, config, SARAH) {
+exports.init = function(SARAH, SARAH2){
+SARAH.speak('initialisation terminé . Je suis opérationnelle');
+ }﻿
+
+ exports.action = function(data, callback, config, SARAH) {
   
 var exec = require('child_process').exec;
  
@@ -151,6 +155,56 @@ switch(data.val) {
 			Txt[1] = "ok";
 			Txt[2] = "c'est fait";
 	break;
+	case "haut":
+	  var process = '%CD%/plugins/cubecanal/bin/chaut.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;
+	case "bas":
+	  var process = '%CD%/plugins/cubecanal/bin/cbas.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;  
+	case "gauche":
+	  var process = '%CD%/plugins/cubecanal/bin/cgauche.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;  
+	case "droite":
+	  var process = '%CD%/plugins/cubecanal/bin/cdroite.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;  
+	case "ok":
+	  var process = '%CD%/plugins/cubecanal/bin/cok.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;  
+	case "retour":
+	  var process = '%CD%/plugins/cubecanal/bin/cretour.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;  
+	case "sortir":
+	  var process = '%CD%/plugins/cubecanal/bin/csortie.bat';
+	  var Txt = new Array; 
+			Txt[0] = "ok";
+	break;  
+	case "menu":
+	  var process = '%CD%/plugins/cubecanal/bin/cmenu.bat';
+	  var Txt = new Array; 
+			Txt[0] = "voila le menu";
+	break;  
+	case "guide":
+	  var process = '%CD%/plugins/cubecanal/bin/cguide.bat';
+	  var Txt = new Array; 
+			Txt[0] = "j'ouvre le guide";
+	break;  
+	case "info":
+	  var process = '%CD%/plugins/cubecanal/bin/cinfo.bat';
+	  var Txt = new Array; 
+			Txt[0] = "j'ouvre les info";
+	break;  
 
   }    
   
